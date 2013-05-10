@@ -1,0 +1,71 @@
+Canary - done
+Test:Canary - done
+Test: Create Board - done
+
+expose Cell - done
+Test: Expose a Cell - done
+Test: Expose an exposed cell - done
+Test: Expose a flagged cell - done
+Test: Expose a cell outside board - done
+Test: Expose all cells on a board with no mines - done
+Test: Expose all cells on a board with one mine - done
+
+toggle Flag Cell - done
+Test: Flag an exposed cell - done
+Test: Flag a cell - done
+Test: UnFlag a cell - done
+Test: Flag placed outside board - done
+
+placeMine - done
+placeNumMines - done
+Test: Place 0 mines using placeNumMines(...) - done
+Test: Place 10 mines using placeNumMines(...) - done
+
+
+findNumAdjacentMines - done
+
+expose Adjacent Unmined Cells - done
+Test: Cell has no adjacent mines - done
+Test: Cell has one adjacent mine - done
+Test: Cell has two adjacent mines - done
+Test: Cell has three adjacent mines - done
+
+is Game Over - done
+Test: Game over on expose a mine - done
+
+is Game Won - done
+Test: Is game won on board with no mines and all cells exposed - done
+Test: Is game won on board with no mines and no cells exposed - done
+Test: Is game won on board with one mine and no cells exposed - done
+Test: Is game won with single unflagged mined cell and all other cells exposed - done
+Test: Is game won with single flagged mined cell and all other cells exposed - done
+Test: Is game won with no cells exposed and all cells flagged and no mines - done
+Test: Is game won with no cells exposed and all cells flagged and some mines - done
+Test: Is game won with one flagged mined cell and one unflagged mined cell, with all other cells exposed - done
+Test: Is game won on board with one unmined-flagged cell and no other cells exposed - done
+Test: Is game won on board with one unmined-flagged cell  and all other cells exposed - done
+
+
+ getScore - done
+ Test: Is the score correct - done
+
+ getBoardState - done
+
+ getMinedPositions - done
+
+
+
+
+
+  
+
+
+  
+
+  
+
+
+
+
+
+
