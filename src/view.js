@@ -4,7 +4,7 @@ if(exports === undefined || exports === null) {
   var exports = {};
 }
 
-exports.View = function() {
+exports.View = (function() {
   var mouse = {};
 
   var CellImageDimensions = {
@@ -135,6 +135,5 @@ exports.View = function() {
     requestAnimFrame(animloop);
     drawCanvas();
   })();
-};
 
-var view = new exports.View();
+})();
