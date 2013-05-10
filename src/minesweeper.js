@@ -12,11 +12,11 @@ exports.Minesweeper = function() {
     FLAGGED  : 1
   };
 
-  var boardState = new Array(this.SIZE);
-  var mined = new Array(this.SIZE);
+  var boardState = [];
+  var mined = [];
   for (var row = 0, col = 0; row < this.SIZE; ++row) {
-    boardState[row] = new Array(this.SIZE);
-    mined[row] = new Array(this.SIZE);
+    boardState[row] = [];
+    mined[row] = [];
     for(col = 0; col < this.SIZE; ++col) {
       boardState[row][col] = "";
       mined[row][col] = false;
